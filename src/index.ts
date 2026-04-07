@@ -6,6 +6,7 @@ export function sum(values: number[]): number {
   return total
 }
 
+// 空配列を渡した場合は 0 を返す（0除算を回避）
 export function average(values: number[]): number {
   if (values.length === 0) return 0
   return sum(values) / values.length
