@@ -1,0 +1,14 @@
+{
+  "name": "ai-sandobx",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Express accounts API scaffold",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
